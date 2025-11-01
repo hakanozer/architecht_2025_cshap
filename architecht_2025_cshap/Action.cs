@@ -4,6 +4,7 @@ namespace architecht_2025_cshap
 {
     public class Action
     {
+        public static int Number = 100;
         public void Call1()
         {
             int a = 10;

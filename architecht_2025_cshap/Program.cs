@@ -49,8 +49,12 @@
                 Console.WriteLine(item);
             }
 
+            Console.WriteLine("Static : " + Action.Number);
+
             userService.CallList();
             userService.ListControl();
+
+            Console.WriteLine("Static : " + Action.Number);
 
         }
 

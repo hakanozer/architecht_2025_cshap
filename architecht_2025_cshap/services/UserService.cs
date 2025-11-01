@@ -4,7 +4,6 @@ namespace architecht_2025_cshap
 {
     public class UserService
     {
-
         public User SingleUser()
         {
             User user = new();
@@ -41,6 +40,7 @@ namespace architecht_2025_cshap
 
         public void CallList()
         {
+            Action.Number = 50;
             List<string> values = new();
             values.Add("Ali");
             values.Add("Erkan");
