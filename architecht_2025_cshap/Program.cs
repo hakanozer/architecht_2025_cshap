@@ -38,6 +38,20 @@
             action.EMailSend(eAge);
 
             action.AddressLine("Adress -1", "Adress -2", "Adress -3");
+
+            UserService userService = new();
+            User user = userService.SingleUser();
+            Console.WriteLine(user.Name);
+
+            User[] users = userService.AllUser();
+            foreach (var item in users)
+            {
+                Console.WriteLine(item);
+            }
+
+            userService.CallList();
+            userService.ListControl();
+
         }
 
     }

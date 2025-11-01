@@ -12,3 +12,4 @@
 /Users/hakan/Documents/GitHub/architecht_2025_cshap/architecht_2025_cshap/obj/Debug/net9.0/architecht_2025_cshap.pdb
 /Users/hakan/Documents/GitHub/architecht_2025_cshap/architecht_2025_cshap/obj/Debug/net9.0/architecht_2025_cshap.genruntimeconfig.cache
 /Users/hakan/Documents/GitHub/architecht_2025_cshap/architecht_2025_cshap/obj/Debug/net9.0/ref/architecht_2025_cshap.dll
+/Users/hakan/Documents/GitHub/architecht_2025_cshap/architecht_2025_cshap/obj/Debug/net9.0/architecht_2025_cshap.sourcelink.json
