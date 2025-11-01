@@ -52,9 +52,11 @@
             Console.WriteLine("Static : " + Action.Number);
 
             userService.CallList();
-            userService.ListControl();
+            //userService.ListControl();
 
             Console.WriteLine("Static : " + Action.Number);
+
+            userService.Control();
 
         }
 

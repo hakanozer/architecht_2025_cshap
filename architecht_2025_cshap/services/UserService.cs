@@ -85,13 +85,13 @@ namespace architecht_2025_cshap
             }
 
         }
-        
+
         public void ListControl()
         {
             Console.WriteLine("======================");
             List<User> users = new();
 
-            for(; ; )
+            for (; ; )
             {
                 Console.WriteLine("Durma için: end, Devam için Enter!");
                 string status = Console.ReadLine();
@@ -111,7 +111,7 @@ namespace architecht_2025_cshap
                 string password = Console.ReadLine();
                 u.Password = password;
                 Console.WriteLine("Müşteri Yaşı?");
-                int age = Convert.ToInt32( Console.ReadLine() );
+                int age = Convert.ToInt32(Console.ReadLine());
                 u.Age = age;
 
                 users.Add(u);
@@ -122,6 +122,31 @@ namespace architecht_2025_cshap
             {
                 Console.WriteLine(item);
             }
+        }
+        
+        public void Control()
+        {
+            Console.WriteLine("Yaşınızı Giriniz!");
+            string StAge = Console.ReadLine();
+            string OpenClose = "close";
+            try
+            {
+                OpenClose = "open";
+                // hata olma olasılığı olan kodlar
+                int age = Convert.ToInt32(StAge);
+                age += 10;
+                Console.WriteLine("Yaşınız : " + age);
+            }
+            catch (Exception ex)
+            {
+                // hata olduğunda çalışacak kodlar
+                Console.WriteLine(ex.Message);
+                Console.WriteLine("Lütfen sadece tam sayı değerleri giriniz!");
+            }finally
+            {
+                OpenClose = "close";
+            }
+            Console.WriteLine("This line call");
         }
 
 
